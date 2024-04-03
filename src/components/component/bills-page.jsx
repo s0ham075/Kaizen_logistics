@@ -16,8 +16,8 @@ export function BillsPage() {
               <Package2Icon className="h-6 w-6" />
               <span className="">Kaizen Logistics</span>
             </Link>
-            <Button className="ml-auto h-8 w-8" size="icon" variant="outline">
-              <BellIcon className="h-4 w-4 text-white" />
+            <Button className="ml-auto h-8 w-8 text-black" size="icon" variant="outline">
+              <BellIcon className="h-4 w-4 text-black" />
               <span className="sr-only">Toggle notifications</span>
             </Button>
           </div>
@@ -79,7 +79,7 @@ export function BillsPage() {
                 type="search" />
             </div>
           </form>
-          <Button size="sm" className="text-white" variant="outline">
+          <Button size="sm" className="text-black" variant="outline">
             New bill
           </Button>
         </header>

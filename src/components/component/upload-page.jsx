@@ -13,7 +13,7 @@ export function UploadPage() {
               <span className="">Kaizen Logistics</span>
             </Link>
             <Button className="ml-auto h-8 w-8" size="icon" variant="outline">
-              <BellIcon className="h-4 w-4 text-white" />
+              <BellIcon className="h-4 w-4 text-black" />
               <span className="sr-only">Toggle notifications</span>
             </Button>
           </div>
@@ -61,9 +61,8 @@ export function UploadPage() {
             <CardHeader>
               <CardTitle>Upload your EDI bill</CardTitle>
               <CardDescription>
-                Drag and drop your EDI bill file here or
-                <Button size="icon" variant="text">
-                  Browse
+                Drag and drop your EDI bill file here or                    <Button size="icon" variant="text">
+                    <nbsp/> <nbsp/> Browse
                 </Button>
               </CardDescription>
             </CardHeader>
@@ -72,7 +71,7 @@ export function UploadPage() {
               <UploadIcon className="w-12 h-12 text-gray-400 dark:text-gray-600" />
               <div className="text-center text-sm text-gray-500 dark:text-gray-400">
                 <p className="mb-2">Drag and drop your file here</p>
-                <Button size="sm" variant="outline">
+                <Button size="sm" variant="outline" className="text-black">
                   Choose file
                 </Button>
               </div>
