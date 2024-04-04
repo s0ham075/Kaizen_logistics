@@ -21,7 +21,7 @@ export function UploadPage() {
             <nav className="grid items-start px-4 text-sm font-medium">
               <Link
                 className="flex items-center gap-3 rounded-lg px-3 py-2 text-black transition-all "
-                href="#">
+                href="/bills">
                 <HomeIcon className="h-4 w-4" />
                 Home
               </Link>
@@ -31,12 +31,12 @@ export function UploadPage() {
                 <UploadIcon className="h-4 w-4" />
                 Upload EDI Bill
               </Link>
-              <Link
+              {/* <Link
                 className="flex items-center gap-3 rounded-lg px-3 py-2 text-black transition-all"
                 href="#">
                 <CheckIcon className="h-4 w-4" />
                 Convert to XML
-              </Link>
+              </Link> */}
               <Link
                 className="flex items-center gap-3 rounded-lg px-3 py-2 text-black transition-all"
                 href="#">
@@ -61,8 +61,9 @@ export function UploadPage() {
             <CardHeader>
               <CardTitle>Upload your EDI bill</CardTitle>
               <CardDescription>
-                Drag and drop your EDI bill file here or                    <Button size="icon" variant="text">
-                    <nbsp/> <nbsp/> Browse
+                Drag and drop your EDI bill file here or                    
+                <Button size="icon" variant="text">
+                    Browse
                 </Button>
               </CardDescription>
             </CardHeader>
